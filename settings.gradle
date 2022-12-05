@@ -1,0 +1,2 @@
+include 'TSN_DEMO_07_JSON_MICRO'
+rootProject.name="DAS06_lab7"

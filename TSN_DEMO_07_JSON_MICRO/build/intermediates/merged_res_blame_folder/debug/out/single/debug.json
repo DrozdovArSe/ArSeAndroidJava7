@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-merged_res-23:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-main-25:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-merged_res-23:/layout_activity_main.xml.flat",
+        "source": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-main-25:/layout/activity_main.xml"
+    },
+    {
+        "merged": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-merged_res-23:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-main-25:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-merged_res-23:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-main-25:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-merged_res-23:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-main-25:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-merged_res-23:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "kz.talipovsn.json_micro.TSN_DEMO_07_JSON_MICRO-main-25:/mipmap-xhdpi/ic_launcher.png"
+    }
+]

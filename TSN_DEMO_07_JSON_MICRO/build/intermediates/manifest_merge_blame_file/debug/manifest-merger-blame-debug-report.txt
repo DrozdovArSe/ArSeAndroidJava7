@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kz.talipovsn.json_micro"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:7:5-21:19
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.8.0] C:\Users\artem\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:8:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:9:9-41
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme"
+19-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:10:9-40
+20        android:usesCleartextTraffic="true" >
+20-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:11:9-44
+21        <activity
+21-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:13:9-19:20
+22            android:name="kz.talipovsn.json_micro.MainActivity"
+22-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:13:19-47
+23            android:exported="true" >
+23-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:14:13-36
+24            <intent-filter>
+24-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:15:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:16:17-68
+25-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:17:17-76
+27-->C:\Users\artem\Desktop\AIS02_LAB07_ANDROID-main\AIS02_LAB07_ANDROID\TSN_DEMO_07_JSON_MICRO\src\main\AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <meta-data
+31-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\artem\.gradle\caches\transforms-3\709ad52284287fdc85d7934d58bb9017\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+32            android:name="com.google.android.gms.version"
+32-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\artem\.gradle\caches\transforms-3\709ad52284287fdc85d7934d58bb9017\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+33            android:value="@integer/google_play_services_version" />
+33-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\artem\.gradle\caches\transforms-3\709ad52284287fdc85d7934d58bb9017\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\artem\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\artem\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+37            android:authorities="kz.talipovsn.json_micro.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\artem\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\artem\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\artem\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\artem\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\artem\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\artem\.gradle\caches\transforms-3\a2a5ae00951a98f5c9bbf6406733a104\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\artem\.gradle\caches\transforms-3\a2a5ae00951a98f5c9bbf6406733a104\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\artem\.gradle\caches\transforms-3\a2a5ae00951a98f5c9bbf6406733a104\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+45        </provider>
+46    </application>
+47
+48</manifest>

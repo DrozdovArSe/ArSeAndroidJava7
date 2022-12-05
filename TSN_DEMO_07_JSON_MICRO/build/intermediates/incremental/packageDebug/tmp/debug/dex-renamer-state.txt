@@ -1,0 +1,4 @@
+#Mon Dec 05 15:18:57 ALMT 2022
+base.0=C\:\\Users\\artem\\Desktop\\AIS02_LAB07_ANDROID-main\\AIS02_LAB07_ANDROID\\TSN_DEMO_07_JSON_MICRO\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
